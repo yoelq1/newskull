@@ -1,14 +1,17 @@
 {
-  "name": "storeskull",
+  "name": "store-skull",
   "version": "1.0.0",
-  "main": "server.js",
+  "description": "StoreSkull website with user & admin, serverless API for Vercel",
+  "main": "index.js",
   "scripts": {
-    "start": "node server.js"
+    "dev": "vercel dev",
+    "start": "vercel dev"
   },
-  "dependencies": {
-    "express": "^4.18.2",
-    "cors": "^2.8.5",
-    "body-parser": "^1.20.2",
-    "nodemon": "^3.0.1"
-  }
+  "engines": {
+    "node": "18.x"
+  },
+  "keywords": ["store", "skull", "vercel", "serverless"],
+  "author": "Yoel Afrido",
+  "license": "MIT",
+  "dependencies": {}
 }
