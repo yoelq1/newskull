@@ -1,1 +1,19 @@
-[]
+[
+  
+  {
+    "id": 1,
+    "name": "Produk A",
+    "price": 100000,
+    "image": "produk-a.jpg",
+    "description": "Deskripsi Produk A"
+  },
+  {
+    "id": 2,
+    "name": "Produk B",
+    "price": 150000,
+    "image": "produk-b.jpg",
+    "description": "Deskripsi Produk B"
+  }
+
+
+]
